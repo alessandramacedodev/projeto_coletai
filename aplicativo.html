@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Coletaí</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0" style="background-color: white;">
+                <a href="" class="navbar-brand p-0 d-flex align-items-center">
+                    <img src="img/logo_coletai.png" alt="Logo Coletaí" style="height: 70px; margin-right: 15px;">
+                    <h1 class="text-custom m-0">Coletaí</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="inicio.html" class="nav-item nav-link" style="color: #003366;">Inicio</a>
+                        <a href="equipe.html" class="nav-item nav-link" style="color: #003366;">Equipe</a>
+                        <a href="sobre.html" class="nav-item nav-link" style="color: #003366;">Sobre</a>
+                        <a href="aplicativo.html" class="nav-item nav-link active" style="color: #003366;">Aplicativo</a>
+                        <div class="nav-item dropdown">
+                            <div class="dropdown-menu m-0">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-none d-xl-flex me-3">
+                        <div class="d-flex flex-column pe-3 border-end border-primary">
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+            </nav>
+
+            <!-- Header Start -->
+            <div class="container-fluid bg-breadcrumb">
+                <div class="container text-center py-5" style="max-width: 900px;">
+                    <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Aplicativo</h4>
+                    <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                      </ol>    
+                </div>
+            </div>
+            <!-- Header End -->
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="input-group-text btn border p-3"><i class="fa fa-search text-white"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+        <!-- Service Start -->
+        <div class="container-fluid service bg-light overflow-hidden py-5"> 
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h1 class="display-3 mb-2">Como funciona o</h1>
+                    <h1 class="display-3 text-capitalize mb-3" style="color: gray;">Coletaí</h1>
+                </div>
+                <div class="row gx-0 gy-4 align-items-center">
+                    <div class="col-lg-6 col-xl-4 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="service-item rounded p-4 mb-4">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="d-flex">
+                                        <div class="service-content text-end">
+                                            <a href="#" class="h4 d-inline-block mb-3">Catálogo de Materiais</a>
+                                            <p class="mb-0">Acesse os tipos de materiais recicláveis aceitos para coleta.</p>
+                                        </div>
+                                        <div class="ps-4">
+                                            <div class="service-btn"><i class="fas fa-book text-white fa-2x"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-item rounded p-4 mb-4">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="d-flex">
+                                        <div class="service-content text-end">
+                                            <a href="#" class="h4 d-inline-block mb-3">Gerenciamento de Pontos</a>
+                                            <p class="mb-0">Gerencie pontos de coleta de materiais recicláveis.</p>
+                                        </div>
+                                        <div class="ps-4">
+                                            <div class="service-btn"><i class="fas fa-map-marker-alt text-white fa-2x"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-item rounded p-4 mb-0">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="d-flex">
+                                        <div class="service-content text-end">
+                                            <a href="#" class="h4 d-inline-block mb-3">Localização de Pontos</a>
+                                            <p class="mb-0">Encontre os pontos de coleta mais próximos.</p>
+                                        </div>
+                                        <div class="ps-4">
+                                            <div class="service-btn"><i class="fas fa-search-location text-white fa-2x"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="bg-transparent">
+                            <img src="img/file (5).png" class="img-fluid w-100" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="service-item rounded p-4 mb-4">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="d-flex">
+                                        <div class="pe-4">
+                                            <div class="service-btn"><i class="fas fa-history text-white fa-2x"></i></div>
+                                        </div>
+                                        <div class="service-content">
+                                            <a href="#" class="h4 d-inline-block mb-3">Histórico de Coletas</a>
+                                            <p class="mb-0">Consulte e conteste o histórico de coletas realizadas.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-item rounded p-4 mb-4">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="d-flex">
+                                        <div class="pe-4">
+                                            <div class="service-btn"><i class="fas fa-calculator text-white fa-2x"></i></div>
+                                        </div>
+                                        <div class="service-content">
+                                            <a href="#" class="h4 d-inline-block mb-3">Calculadora de Recicláveis</a>
+                                            <p class="mb-0">Calcule pontos acumulados com base nos materiais recicláveis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-item rounded p-4 mb-0">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="d-flex">
+                                        <div class="pe-4">
+                                            <div class="service-btn"><i class="fas fa-handshake text-white fa-2x"></i></div>
+                                        </div>
+                                        <div class="service-content">
+                                            <a href="#" class="h4 d-inline-block mb-3">Empresas Parceiras</a>
+                                            <p class="mb-0">Veja onde trocar pontos por descontos especiais.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Service End -->
+
+        <!-- Calculadora -->
+        <div class="container-fluid testimonial py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h1 class="display-3 mb-2">Calculadora de recicláveis</h1>
+                    <p class="mb-4" style="font-size: 30px;">Descubra quantos pontos você pode ganhar! Use nossa Calculadora de Recicláveis para saber aproximadamente quanto cada material pode ter retornar de pontos. </p>
+                </div>
+    
+        <!-- Calculadora de Recicláveis -->
+    <!-- Calculadora de Recicláveis -->
+    <section id="calculadora-container">
+        <div id="calculadora">
+            <h2>Calculadora de Recicláveis</h2>
+            <p>Escolha o material e insira a quantidade de unidades:</p>
+    
+            <label for="material">Material:</label>
+            <select id="material">
+                <option value="papel">Papel</option>
+                <option value="plastico">Plástico</option>
+                <option value="vidro">Vidro</option>
+                <option value="metal">Metal</option>
+                <option value="pilhas">Pilhas e Baterias</option>
+            </select>
+    
+            <label for="quantidade">Quantidade:</label>
+            <input type="number" id="quantidade" placeholder="Quantidade de unidades">
+    
+            <button onclick="calcularPesoEPontos()">Calcular</button>
+    
+            <div id="resultadoCalculadora"></div>
+        </div>
+    </section>
+    
+
+        <!-- O que voce pode trocar? -->
+         
+        <div class="container-fluid testimonial py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h1 class="display-3 mb-2">Saiba pelo que você pode trocar</h1>
+                    <p class="mb-4" style="font-size: 30px;">e fazer a diferença pelo planeta e sua cidade. </p>
+                    <div class="rewards-container">
+                        <div class="reward-box">
+                          <div class="icon travel">
+                            <i class="fa fa-plane"></i>
+                          </div>
+                          <div class="text-content">
+                            <h3>Viagem</h3>
+                            <p>60.000 pontos</p>
+                          </div>
+                        </div>
+                        <div class="reward-box">
+                          <div class="icon party">
+                            <i class="fa fa-glass-cheers"></i>
+                          </div>
+                          <div class="text-content">
+                            <h3>Ingressos</h3>
+                            <p>2.000 pontos</p>
+                          </div>
+                        </div>
+                        <div class="reward-box">
+                          <div class="icon pharmacy">
+                            <i class="fa fa-prescription-bottle-alt"></i>
+                          </div>
+                          <div class="text-content">
+                            <h3>Farmácia</h3>
+                            <p>500 pontos</p>
+                          </div>
+                        </div>
+                        <div class="reward-box">
+                          <div class="icon clothing">
+                            <i class="fa fa-tshirt"></i>
+                          </div>
+                          <div class="text-content">
+                            <h3>Roupa</h3>
+                            <p>400 pontos</p>
+                          </div>
+                        </div>
+                        <div class="reward-box">
+                          <div class="icon appliances">
+                            <i class="fa fa-blender"></i>
+                          </div>
+                          <div class="text-content">
+                            <h3>Eletrodoméstico</h3>
+                            <p>1.000 pontos</p>
+                          </div>
+                        </div>
+                        <div class="reward-box">
+                          <div class="icon restaurant">
+                            <i class="fa fa-utensils"></i>
+                          </div>
+                          <div class="text-content">
+                            <h3>Restaurante</h3>
+                            <p>200 pontos</p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                  
+                                                             
+        <!-- Testimonial End -->
+         
+     <!-- Email Subscription Section Start -->
+     <div class="container-fluid testimonial py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h1 class="display-3 mb-2">Quer saber como ajudar na coleta seletiva?</h1>
+                <p class="mb-4" style="font-size: 30px;">Digite seu e-mail para receber nossas informações.</p>
+            </div>
+    
+            <!-- Formulário de Envio de E-mail -->
+            <section id="email-container">
+                <div id="email-form">
+                    <h2>Insira aqui seu E-mail</h2>
+                    <input type="email" id="email" placeholder="E-mail">
+                    <button onclick="enviarEmail()">Enviar</button>
+                    <div id="resultadoEnvio"></div>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+    <script>
+    // Inicializa EmailJS (substitua "seu_user_id" pelo seu User ID do EmailJS)
+    emailjs.init("service_p9p2o1d");
+    
+    function sendEmail() {
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message');
+    
+        // Validação básica
+        if (!email || !validateEmail(email)) {
+            message.style.color = 'red';
+            message.textContent = 'Por favor, insira um e-mail válido.';
+            return;
+        }
+    
+        // Dados para envio
+        const templateParams = {
+            to_email: email,
+            message: "Obrigado por se inscrever! Aqui está o seu guia sobre reciclagem correta.",
+        };
+    
+        // Envio via EmailJS
+        emailjs.send("seu_servico_id", "seu_template_id", templateParams)
+            .then(() => {
+                message.style.color = 'green';
+                message.textContent = 'E-mail enviado com sucesso!';
+                document.getElementById('email').value = ''; // Limpa o campo de e-mail
+            })
+            .catch(() => {
+                message.style.color = 'red';
+                message.textContent = 'Ocorreu um erro ao enviar o e-mail. Tente novamente.';
+            });
+    }
+    
+    function validateEmail(email) {
+        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return re.test(email);
+    }
+    </script>
+    
+    
+
+        
+        <!-- Footer Start -->
+      
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                        <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Projeto Coletaí</a>,todos os direitos reservados.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end text-body">
+                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                          </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-secondary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    </body>
+
+</html>
