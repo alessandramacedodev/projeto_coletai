@@ -136,28 +136,3 @@ function calcularPesoEPontos() {
 
 
  
-  // e-mail simulação
-
- 
-document.getElementById('emailForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Evita o envio padrão do formulário
-    const email = document.getElementById('emailInput').value;
-
-    if (email) {
-        // Substitua a URL abaixo pelo backend que enviará o e-mail
-        fetch('https://seuservidor.com/enviar-email', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ email: email })
-        })
-        .then(response => {
-            if (response.ok) {
-                alert('E-mail enviado com sucesso! Confira sua caixa de entrada.');
-                document.getElementById('emailForm').reset();
-            } else {
-                alert('Ocorreu um erro ao enviar o e-mail. Tente novamente mais tarde.');
-            }
-        })
-        .catch(() => alert('Erro ao enviar o e-mail. Verifique sua conexão e tente novamente.'));
-    }
-});
