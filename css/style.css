@@ -1,4 +1,3 @@
-
 /* Aplicar Times New Roman a todas as páginas */
 body {
     font-family: "Times New Roman", Times, serif;
@@ -983,114 +982,11 @@ body {
     box-sizing: border-box;
 }
 
-
-  
-/* e-mail página simulação */
-/* Estilo do formulário de e-mail */
-#email-container {
-    background-color: #e8f5e9;
-    padding: 50px;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#email-form {
-    background-color: #4DBF38;
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    width: 300px;
-    text-align: center;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-}
-
-#email-form h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-#email-form label {
-    display: block;
-    margin-top: 10px;
-    font-size: 14px;
-}
-
-#email-form input {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    border-radius: 5px;
-    border: none;
-    font-size: 14px;
-}
-
-#email-form button {
-    background-color: #2E8B57;
-    color: white;
-    border: none;
-    padding: 10px;
-    margin-top: 15px;
-    width: 100%;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-#email-form button:hover {
-    background-color: #3B9E4E;
-}
-
-#resultadoEnvio {
-    margin-top: 20px;
-    font-size: 16px;
-    padding: 10px;
-    background-color: #333;
-    color: white;
-    border-radius: 5px;
-}
-
 /* Estilos globais */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-
-/* Estilos responsivos para desktop e celular */
-@media (max-width: 768px) {
-    .testimonial .container {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-    .testimonial .text-center h1 {
-        font-size: 2rem; /* Ajuste o tamanho do título em telas menores */
-    }
-
-    .testimonial .text-center h4 {
-        font-size: 1.2rem; /* Ajuste o tamanho do subtítulo em telas menores */
-    }
-
-    .testimonial input[type="email"] {
-        max-width: 100%; /* Ajuste o campo de e-mail para ocupar 100% da largura disponível em telas menores */
-    }
-
-    .testimonial button {
-        padding: 8px 25px; /* Ajuste o tamanho do botão */
-    }
-
-    .testimonial p {
-        font-size: 0.8rem; /* Ajuste o tamanho da mensagem */
-    }
-}
-
-@media (min-width: 769px) {
-    .testimonial input[type="email"] {
-        max-width: 400px; /* Campo de e-mail com largura fixa em telas maiores */
-    }
 }
 
 .text-custom {
