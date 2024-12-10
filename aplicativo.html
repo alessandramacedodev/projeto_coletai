@@ -310,74 +310,10 @@
                         </div>
                       </div>
                       
-                  
-                                                             
-        <!-- Testimonial End -->
+                               
+               <!-- O que voce pode trocar? -->
          
-     <!-- Email Subscription Section Start -->
-     <div class="container-fluid testimonial py-5">
-        <div class="container py-5">
-            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                <h1 class="display-3 mb-2">Quer saber como ajudar na coleta seletiva?</h1>
-                <p class="mb-4" style="font-size: 30px;">Digite seu e-mail para receber nossas informações.</p>
-            </div>
-    
-            <!-- Formulário de Envio de E-mail -->
-            <section id="email-container">
-                <div id="email-form">
-                    <h2>Insira aqui seu E-mail</h2>
-                    <input type="email" id="email" placeholder="E-mail">
-                    <button onclick="enviarEmail()">Enviar</button>
-                    <div id="resultadoEnvio"></div>
-                </div>
-            </section>
-        </div>
-    </div>
-    
-    <script>
-    // Inicializa EmailJS (substitua "seu_user_id" pelo seu User ID do EmailJS)
-    emailjs.init("service_p9p2o1d");
-    
-    function sendEmail() {
-        const email = document.getElementById('email').value;
-        const message = document.getElementById('message');
-    
-        // Validação básica
-        if (!email || !validateEmail(email)) {
-            message.style.color = 'red';
-            message.textContent = 'Por favor, insira um e-mail válido.';
-            return;
-        }
-    
-        // Dados para envio
-        const templateParams = {
-            to_email: email,
-            message: "Obrigado por se inscrever! Aqui está o seu guia sobre reciclagem correta.",
-        };
-    
-        // Envio via EmailJS
-        emailjs.send("seu_servico_id", "seu_template_id", templateParams)
-            .then(() => {
-                message.style.color = 'green';
-                message.textContent = 'E-mail enviado com sucesso!';
-                document.getElementById('email').value = ''; // Limpa o campo de e-mail
-            })
-            .catch(() => {
-                message.style.color = 'red';
-                message.textContent = 'Ocorreu um erro ao enviar o e-mail. Tente novamente.';
-            });
-    }
-    
-    function validateEmail(email) {
-        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        return re.test(email);
-    }
-    </script>
-    
-    
-
-        
-        <!-- Footer Start -->
+                 <!-- Footer Start -->
       
                         </div>
                     </div>
